@@ -5594,6 +5594,14 @@ a.badge-dark:focus {
     border-radius: .25rem
 }
 
+.img-400 {
+    height: 400px;
+}
+
+.text-grey {
+    color: grey;
+}
+
 .alert-heading {
     color: inherit
 }
@@ -10568,8 +10576,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
